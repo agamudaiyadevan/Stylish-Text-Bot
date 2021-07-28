@@ -23,14 +23,14 @@ async def start(c, m):
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('👥 Group', url=f"https://t.me/iZaute/5"),
-            InlineKeyboardButton('Channel 📢', url=f"https://t.me/iZaute/6")
+            InlineKeyboardButton('TENDKOTTA', url=f"https://telegram.me/TENDKOTTA"),
+            InlineKeyboardButton('TharamaanaMovies', url=f"https://telegram.me/tharamaanamovies")
             ],[
-            InlineKeyboardButton('❤️ Credit', url=f"https://t.me/{owner_username}"),
-            InlineKeyboardButton('Bot Lists 🤖', url=f"https://t.me/iZaute/8"),
-            InlineKeyboardButton('GitHup 🤣', url=f"https://githup.com/ZauteKm")
+            InlineKeyboardButton('Youtube DL', url=f"https://telegram.me/YouTubedownloadergroup1"),
+            InlineKeyboardButton('Bot Lists 🤖', url=f"https://telegram.me/tharamaanateambot"),
+            InlineKeyboardButton('Channel List 📢', url=f"https://telegram.me/tharamaanateambot")
             ],[
-            InlineKeyboardButton('⚜️ Subscribe Now YouTube ⚜️', url=f"https://youtube.com/c/ZauteKm")
+            InlineKeyboardButton('🤖 Movie Request Bot 🤖', url=f"https://telegram.me/Movie_Request_v3_Robot")
         ]
     ]
     await m.reply_text(
